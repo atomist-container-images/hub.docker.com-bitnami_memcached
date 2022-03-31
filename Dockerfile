@@ -1,12 +1,15 @@
-# Tags: latest, 1.6.15-debian-10-r0, 1.6.15, 1-debian-10, 1
+# Tags: latest, 1.6.15-debian-10-r1, 1.6.15, 1-debian-10, 1
 FROM bitnami/memcached:latest
-FROM bitnami/memcached:1.6.15-debian-10-r0
+FROM bitnami/memcached:1.6.15-debian-10-r1
 FROM bitnami/memcached:1.6.15
 FROM bitnami/memcached:1-debian-10
 FROM bitnami/memcached:1
 
 # Tags: _
 FROM bitnami/memcached:_
+
+# Tags: 1.6.15-debian-10-r0
+FROM bitnami/memcached:1.6.15-debian-10-r0
 
 # Tags: 1.6.14-debian-10-r46, 1.6.14
 FROM bitnami/memcached:1.6.14-debian-10-r46
@@ -92,6 +95,3 @@ FROM bitnami/memcached:1.6.14-debian-10-r20
 
 # Tags: 1.6.14-debian-10-r19
 FROM bitnami/memcached:1.6.14-debian-10-r19
-
-# Tags: 1.6.14-debian-10-r18
-FROM bitnami/memcached:1.6.14-debian-10-r18
